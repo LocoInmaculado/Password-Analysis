@@ -175,7 +175,7 @@ def ejePwd():
     else:
         print("Ha ocurrido un error: No está contemplada la constitución de su contraseña, revise las instrucciones.")
     if tie is not None:
-        print("Podría ser crackeada en " + tie)
+        print("Podría ser crackeada en " + tie + ".")
     else:
         print("Ha ocurrido un error: No está contemplada el tiempo de crackeo de su contraseña, revise las instrucciones.")
 
